@@ -7,16 +7,13 @@ import 'tachyons' ;
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-let app_details = {
-  "desc":"Weather forcasting application built using "
-};
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <App info={app_details}/>
+    <App />
     <Footer />
   </React.StrictMode>
 );

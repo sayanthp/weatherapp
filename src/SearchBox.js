@@ -1,8 +1,9 @@
+import './searchbox.css';
 const SearchBox = () => {
 
 return(
-    <div>
-        <input className="f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l"
+    <div className="searchboxdiv">
+        <input className="input-reset bn black-80 bg-white pa3 lh-solid br4"
         type="search" placeholder='search for a city/zip'/>
     </div>
 );

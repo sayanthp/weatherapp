@@ -1,0 +1,8 @@
+.searchboxdiv{
+    margin: 2rem auto auto auto;
+}
+.searchboxdiv input{
+    display: block;
+    margin: auto ;
+    text-align: center;
+}
